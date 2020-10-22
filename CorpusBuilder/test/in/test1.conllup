@@ -1,0 +1,20 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC MARCELL:NE MARCELL:NP MARCELL:IATE MARCELL:EUROVOC
+# newdoc id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK
+# title = DECIZIE 8 18/01/2011
+# date = 2011
+# type = DECIZIE
+# entype = ????
+# url = http://legislatie.just.ro/Public/FormaPrintabila/00G0001I4Q9GISD13TF7DVA3MMEEK
+# language = ro
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s12
+# text = Cu participarea reprezentantului Ministerului Public, procuror Carmen-Cătălina Gliga.
+1	Cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	O	O	_	_
+2	participarea	participare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_	O	B-NP	16:3520105	16:4026
+3	reprezentantului	reprezentant	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_	B-PER	I-NP	_	_
+4	Ministerului	minister	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_	B-ORG	I-NP	17:910634;18:858539;19:3522913	17:0436;18:1226;19:1226,7206,7231
+5	Public	public	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	I-ORG	I-NP	18:858539;19:3522913	18:1226;19:1226,7206,7231
+6	,	,	PUNCT	COMMA	_	7	punct	_	_	I-ORG	O	_	_
+7	procuror	procuror	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	_	I-ORG	B-NP	20:3522909	20:1226,7206,7231
+8	CarmenCătălina	Carmen-Cătălina	PROPN	Np	_	7	nmod	_	_	I-ORG	I-NP	_	_
+9	Gliga	Gliga	PROPN	Np	_	8	flat	_	_	I-ORG	I-NP	_	_
+10	.	.	PUNCT	PERIOD	_	2	punct	_	_	O	O	_	_

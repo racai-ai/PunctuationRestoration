@@ -1,0 +1,274 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC RACAI:PUNCTUATION
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s12
+# text = Cu participarea reprezentantului Ministerului Public, procuror Carmen-Cătălina Gliga.
+1	Cu	cu	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	_
+2	participarea	participare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_	_
+3	reprezentantului	reprezentant	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_	_
+4	Ministerului	minister	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_	_
+5	Public	public	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_	CommaAfter=yes
+7	procuror	procuror	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	_	_
+8	Carmen	Carmen	PROPN	Np	_	7	nmod	_	_	HyphenAfter=yes
+8	Cătălina	Cătălina	PROPN	Np	_	7	nmod	_	_	_
+9	Gliga	Gliga	PROPN	Np	_	8	flat	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s14
+# text = La apelul nominal lipsesc părțile, față_de care procedura de citare este legal îndeplinită.
+1	La	la	ADP	Spsa	AdpType=Prep|Case=Acc	2	case	_	_	_
+2	apelul	apel	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	_	_
+3	nominal	nominal	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_	_
+4	lipsesc	lipsi	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_
+5	părțile	parte	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	4	obj	_	_	CommaAfter=yes
+7	față	față	ADP	Spca	AdpType=Prep|Case=Acc	0	case	_	_	_
+7	de	de	ADP	Spca	AdpType=Prep|Case=Acc	0	case	_	_	_
+8	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	0	case	_	_	_
+9	procedura	procedură	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	case	_	_	_
+10	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	7	fixed	_	_	_
+11	citare	citare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	nmod	_	_	_
+12	este	fi	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_	_
+13	legal	legal	ADV	Rgp	Degree=Pos	14	advmod	_	_	_
+14	îndeplinită	îndeplinit	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	acl	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s15
+# text = Cauza fiind în stare de judecată, președintele acordă cuvântul reprezentantului Ministerului Public, care pune concluzii de respingere a excepției de neconstituționalitate ca inadmisibilă, deoarece o hotărâre judecătorească nu poate face obiect al controlului Curții Constituționale.
+1	Cauza	cauză	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_	_
+2	fiind	fi	VERB	Vmg	VerbForm=Ger	4	cop	_	_	_
+3	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_	_
+4	stare	stare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	9	advcl	_	_	_
+5	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	_
+6	judecată	judecată	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	_	CommaAfter=yes
+8	președintele	președinte	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	_	_
+9	acordă	acorda	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	_
+10	cuvântul	cuvânt	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	_	_
+11	reprezentantului	reprezentant	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_	_
+12	Ministerului	minister	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_	_
+13	Public	public	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_	CommaAfter=yes
+15	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	16	nsubj	_	_	_
+16	pune	pune	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+17	concluzii	concluzie	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	16	obj	_	_	_
+18	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	19	case	_	_	_
+19	respingere	respingere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	_	_
+20	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_	_
+21	excepției	excepție	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	_	_
+22	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	23	case	_	_	_
+23	neconstituționalitate	neconstituționalitate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	_	_
+24	ca	ca	ADV	Rc	_	25	advmod	_	_	_
+25	inadmisibilă	inadmisibil	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_	CommaAfter=yes
+27	deoarece	deoarece	SCONJ	Csssp	Negative=Pos	32	mark	_	_	_
+28	o	un	DET	Tifsr	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_	_
+29	hotărâre	hotărâre	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	32	nsubj	_	_	_
+30	judecătorească	judecătoresc	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_	_
+31	nu	nu	PART	Qz	Negative=Neg	32	advmod	_	_	_
+32	poate	poate	ADV	Rgp	Degree=Pos	16	advcl	_	_	_
+33	face	face	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	_	_	_
+34	obiect	obiect	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	_	_
+35	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det	_	_	_
+36	controlului	control	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	34	nmod	_	_	_
+37	Curții	curte	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	36	nmod	_	_	_
+38	Constituționale	constituțional	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s25
+# text = Președinții celor două Camere ale Parlamentului, Guvernul și Avocatul Poporului nu au comunicat punctele lor de vedere asupra excepției de neconstituționalitate.
+1	Președinții	președinte	NOUN	Ncmpry	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	14	nsubj	_	_	_
+2	celor	cel	DET	Td-po	Case=Gen|Number=Plur|PronType=Dem	4	det	_	_	_
+3	două	două	NUM	Mcfp-l	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	4	nummod	_	_	_
+4	Camere	cameră	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	_	_
+5	ale	al	DET	Tsfp	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_	_
+6	Parlamentului	parlament	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_	CommaAfter=yes
+8	Guvernul	guvern	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	conj	_	_	_
+9	și	și	CONJ	Crssp	Negative=Pos	10	cc	_	_	_
+10	Avocatul	avocat	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	conj	_	_	_
+11	Poporului	popor	NOUN	Ncmsoy	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_	_
+12	nu	nu	PART	Qz	Negative=Neg	14	advmod	_	_	_
+13	au	avea	AUX	Va--3p	_	14	aux	_	_	_
+14	comunicat	comunica	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_	_
+15	punctele	punct	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	obj	_	_	_
+16	lor	lui	DET	Ds3---p	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_	_
+17	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	_	_
+18	vedere	vedere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	_	_
+19	asupra	asupra	ADP	Spsg	AdpType=Prep|Case=Gen	20	case	_	_	_
+20	excepției	excepție	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_	_
+21	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	22	case	_	_	_
+22	neconstituționalitate	neconstituționalitate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s32
+# text = Examinând excepția de neconstituționalitate, Curtea constată că un prim aspect care se impune a fi analizat este acela al admisibilității excepției de neconstituționalitate, astfel cum a fost formulată de_către instanța de judecată, din oficiu.
+1	Examinând	examina	VERB	Vmg	VerbForm=Ger	7	advcl	_	_	_
+2	excepția	excepție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	_	_
+3	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	4	case	_	_	_
+4	neconstituționalitate	neconstituționalitate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_	CommaAfter=yes
+6	Curtea	curte	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_	_
+7	constată	constata	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	_
+8	că	că	SCONJ	Csssp	Negative=Pos	19	mark	_	_	_
+9	un	un	DET	Timsr	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_	_
+10	prim	prim	NUM	Moms-ln	Definite=Ind|Gender=Masc|Number=Sing|NumForm=Word|NumType=Ord	11	nummod	_	_	_
+11	aspect	aspect	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	_	_
+12	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	14	nsubj	_	_	_
+13	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	14	expl:pv	_	_	_
+14	impune	impune	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_	_
+15	a	a	PART	Qn	PartType=Inf	17	mark	_	_	_
+16	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	17	aux:pass	_	_	_
+17	analizat	analiza	VERB	Vmp--sm	Gender=Masc|Number=Sing|VerbForm=Part	14	ccomp	_	_	_
+18	este	fi	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_	_
+19	acela	acela	PRON	Pd3msr	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	ccomp	_	_	_
+20	al	al	DET	Tsms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_	_
+21	admisibilității	admisibilitate	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	19	nmod	_	_	_
+22	excepției	excepție	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	_	_
+23	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	24	case	_	_	_
+24	neconstituționalitate	neconstituționalitate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	_	CommaAfter=yes
+26	astfel	astfel	ADV	Rgp	Degree=Pos	30	advmod	_	_	_
+27	cum	cum	ADV	Rw	PronType=Int,Rel	26	fixed	_	_	_
+28	a	avea	AUX	Va--3s	_	30	aux	_	_	_
+29	fost	fi	AUX	Vap--sm	Gender=Masc|Number=Sing|VerbForm=Part	30	aux:pass	_	_	_
+30	formulată	formula	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	19	acl	_	_	_
+31	de	de	ADP	Spca	AdpType=Prep|Case=Acc	0	_	_	_	_
+31	către	către	ADP	Spca	AdpType=Prep|Case=Acc	0	_	_	_	_
+32	instanța	instanță	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	_	_	_	_
+33	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	0	case	_	_	_
+34	judecată	judecată	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	nmod	_	_	CommaAfter=yes
+36	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	37	case	_	_	_
+37	oficiu	oficiu	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	0	nmod	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s35
+# text = Ca atare, obligativitatea dezlegărilor date problemelor de_drept, prin soluționarea unui recurs în interesul legii, înseamnă că judecătorul trebuie să se conformeze unei interpretări normative unitare date de instanța supremă.
+1	Ca	ca	ADV	Rc	_	18	advmod	_	_	_
+2	atare	atare	ADJ	Afp	Degree=Pos	1	fixed	_	_	CommaAfter=yes
+4	obligativitatea	obligativitate	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	_	_
+5	dezlegărilor	dezlegare	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	4	nmod	_	_	_
+6	date	dat	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	4	nmod	_	_	_
+7	problemelor	problemă	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	6	iobj	_	_	_
+8	de	de	ADV	Rgp	Degree=Pos	7	nmod	_	_	_
+8	drept	drept	ADV	Rgp	Degree=Pos	7	nmod	_	_	CommaAfter=yes
+10	prin	prin	ADP	Spsa	AdpType=Prep|Case=Acc	11	case	_	_	_
+11	soluționarea	soluționare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	6	obl	_	_	_
+12	unui	un	DET	Timso	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_	_
+13	recurs	recurs	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_	_
+14	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	15	case	_	_	_
+15	interesul	interes	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_	_
+16	legii	lege	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_	CommaAfter=yes
+18	înseamnă	însemna	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_
+19	că	că	SCONJ	Csssp	Negative=Pos	21	mark	_	_	_
+20	judecătorul	judecător	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	_	_
+21	trebuie	trebui	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_	_
+22	să	să	PART	Qs	Mood=Sub	24	mark	_	_	_
+23	se	sine	PRON	Px3--a--------w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak	24	expl:pv	_	_	_
+24	conformeze	conforma	VERB	Vmsp3	Mood=Sub|Person=3|Tense=Pres|VerbForm=Fin	21	csubj	_	_	_
+25	unei	un	DET	Tifso	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	26	det	_	_	_
+26	interpretări	interpretare	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	24	iobj	_	_	_
+27	normative	normativ	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+28	unitare	unitar	ADJ	Afpfson	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_	_
+29	date	da	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	26	acl	_	_	_
+30	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	31	case	_	_	_
+31	instanța	instanță	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	29	nmod:agent	_	_	_
+32	supremă	suprem	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s36
+# text = Așa fiind, Curtea constată că excepția de neconstituționalitate, astfel cum a fost formulată, este admisibilă.
+1	Așa	așa	ADV	Rgp	Degree=Pos	5	advmod	_	_	_
+2	fiind	fi	VERB	Vmg	VerbForm=Ger	1	cop	_	_	CommaAfter=yes
+4	Curtea	curte	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+5	constată	constata	VERB	Vmis3s	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_	_
+6	că	că	SCONJ	Csssp	Negative=Pos	18	mark	_	_	_
+7	excepția	excepție	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	18	nsubj	_	_	_
+8	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	_
+9	neconstituționalitate	neconstituționalitate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	_	CommaAfter=yes
+11	astfel	astfel	ADV	Rgp	Degree=Pos	15	advmod	_	_	_
+12	cum	cum	ADV	Rw	PronType=Int,Rel	11	fixed	_	_	_
+13	a	avea	AUX	Va--3s	_	15	aux	_	_	_
+14	fost	fi	AUX	Vap--sm	Gender=Masc|Number=Sing|VerbForm=Part	15	aux:pass	_	_	_
+15	formulată	formula	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	18	advcl	_	_	CommaAfter=yes
+17	este	fi	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_	_
+18	admisibilă	admisibil	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	ccomp	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s48
+# text = Această prioritate poate fi dată în_cadrul unei acțiuni în revendicare, întemeiată pe dreptul comun, în_măsura_în_care astfel nu s-ar aduce atingere unui alt drept de proprietate ori securității raporturilor juridice.
+1	Această	acest	DET	Dd3fsr---e	Case=Nom|Gender=Fem|Number=Sing|Person=3|Position=Prenom|PronType=Dem	2	det	_	_	_
+2	prioritate	prioritate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	_	_
+3	poate	putea	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_
+4	fi	fi	AUX	Vanp	Tense=Pres|VerbForm=Inf	5	aux:pass	_	_	_
+5	dată	da	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	3	ccomp	_	_	_
+6	în	în	ADP	Spcg	AdpType=Prep|Case=Gen	0	_	_	_	_
+6	cadrul	cadrul	ADP	Spcg	AdpType=Prep|Case=Gen	0	_	_	_	_
+7	unei	un	DET	Tifso	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	0	_	_	_	_
+8	acțiuni	acțiune	NOUN	Ncfson	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	0	_	_	_	_
+9	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	0	case	_	_	_
+10	revendicare	revendicare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	nmod	_	_	CommaAfter=yes
+12	întemeiată	întemeia	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	acl	_	_	_
+13	pe	pe	ADP	Spsa	AdpType=Prep|Case=Acc	14	case	_	_	_
+14	dreptul	drept	NOUN	Ncmsry	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	_	_
+15	comun	comun	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_	CommaAfter=yes
+17	în	în	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	22	obl	_	_	_
+17	măsura	măsura	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	22	obl	_	_	_
+17	în	în	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	22	obl	_	_	_
+17	care	care	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	22	obl	_	_	_
+18	astfel	astfel	ADV	Rgp	Degree=Pos	22	advmod	_	_	_
+19	nu	nu	PART	Qz	Negative=Neg	22	advmod	_	_	_
+20	s	s	PRON	Px3--a--y-----w	Case=Acc|Person=3|PronType=Prs|Reflex=Yes|Strength=Weak|Variant=Short	22	expl:pass	_	_	HyphenAfter=yes
+21	ar	avea	AUX	Va--3	_	22	aux	_	_	_
+22	aduce	aduce	VERB	Vmnp	Tense=Pres|VerbForm=Inf	17	acl	_	_	_
+23	atingere	atingere	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	22	nsubj:pass	_	_	_
+24	unui	un	DET	Timso	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_	_
+25	alt	alt	DET	Di3ms----e	Gender=Masc|Number=Sing|Person=3|Position=Prenom|PronType=Ind	26	det	_	_	_
+26	drept	drept	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	22	iobj	_	_	_
+27	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	28	case	_	_	_
+28	proprietate	proprietate	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	26	nmod	_	_	_
+29	ori	ori	CONJ	Ccssp	Negative=Pos	30	cc	_	_	_
+30	securității	securitate	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	26	conj	_	_	_
+31	raporturilor	raport	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	30	nmod	_	_	_
+32	juridice	juridic	ADJ	Afpfp-n	Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	31	amod	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s49
+# text = De altfel, Curtea reține că aspectele invocate în motivarea excepției reprezintă, în_realitate, probleme de interpretare și aplicare a legii, ce sunt de competența instanțelor de judecată, iar nu a instanței de contencios constituțional.
+1	De	de	ADP	Spsa	AdpType=Prep|Case=Acc	5	advmod	_	_	_
+2	altfel	altfel	ADV	Rgp	Degree=Pos	1	fixed	_	_	CommaAfter=yes
+4	Curtea	curte	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_	_
+5	reține	reține	VERB	Vmip3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_
+6	că	că	SCONJ	Csssp	Negative=Pos	12	mark	_	_	_
+7	aspectele	aspect	NOUN	Ncfpry	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	_	_
+8	invocate	invoca	VERB	Vmp--pf	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_	_
+9	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	10	case	_	_	_
+10	motivarea	motivare	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	obl	_	_	_
+11	excepției	excepție	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	_	_
+12	reprezintă	reprezenta	VERB	Vmip3	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_	CommaAfter=yes
+14	în	în	ADV	Rgp	Degree=Pos	12	fixed	_	_	_
+14	realitate	realitate	ADV	Rgp	Degree=Pos	12	fixed	_	_	CommaAfter=yes
+16	probleme	problemă	NOUN	Ncfp-n	Definite=Ind|Gender=Fem|Number=Plur	12	xcomp	_	_	_
+17	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	18	case	_	_	_
+18	interpretare	interpretare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	_	_
+19	și	și	CONJ	Crssp	Negative=Pos	20	cc	_	_	_
+20	aplicare	aplicare	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	_	_
+21	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_	_
+22	legii	lege	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_	CommaAfter=yes
+24	ce	ce	PRON	Pw3--r	Case=Nom|Person=3|PronType=Int,Rel	27	nsubj	_	_	_
+25	sunt	fi	VERB	Vmip3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_	_
+26	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	27	case	_	_	_
+27	competența	competență	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	16	acl	_	_	_
+28	instanțelor	instanță	NOUN	Ncfpoy	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	27	nmod	_	_	_
+29	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	30	case	_	_	_
+30	judecată	judecată	NOUN	Ncfsrn	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	28	nmod	_	_	CommaAfter=yes
+32	iar	iar	ADV	Rc	_	35	cc	_	_	_
+33	nu	nu	PART	Qz	Negative=Neg	35	advmod	_	_	_
+34	a	al	DET	Tsfs	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	_	_
+35	instanței	instanță	NOUN	Ncfsoy	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	conj	_	_	_
+36	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	37	case	_	_	_
+37	contencios	contencios	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	35	nmod	_	_	_
+38	constituțional	constituțional	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s55
+# text = Definitivă și general obligatorie.
+1	Definitivă	definitiv	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_	_
+2	și	și	CONJ	Crssp	Negative=Pos	4	cc	_	_	_
+3	general	general	ADJ	Afpms-n	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	advmod	_	_	_
+4	obligatorie	obligatoriu	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_	PeriodAfter=yes
+
+# sent_id = ro-mj-2011-00000G0001I4Q9GISD13TF7DVA3MMEEK-s56
+# text = Pronunțată în ședința publică din data de 18 ianuarie 2011.
+1	Pronunțată	pronunța	VERB	Vmp--sf	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_	_
+2	în	în	ADP	Spsa	AdpType=Prep|Case=Acc	3	case	_	_	_
+3	ședința	ședință	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nmod:pmod	_	_	_
+4	publică	public	ADJ	Afpfsrn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_	_
+5	din	din	ADP	Spsa	AdpType=Prep|Case=Acc	6	case	_	_	_
+6	data	dată	NOUN	Ncfsry	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	_	_
+7	de	de	ADP	Spsa	AdpType=Prep|Case=Acc	9	case	_	_	_
+8	18	18	NUM	Mc	_	9	nummod	_	_	_
+9	ianuarie	ianuarie	NOUN	Ncms-n	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_	_
+10	2011	2011	NUM	Mc	_	9	nummod	_	_	PeriodAfter=yes
