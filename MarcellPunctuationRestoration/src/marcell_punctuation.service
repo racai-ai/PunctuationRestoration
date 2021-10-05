@@ -1,0 +1,15 @@
+[Unit]
+Description=MARCELL Punctuation
+After=network.target auditd.service
+
+[Service]
+ExecStart=/data/vasile/PunctuationRestoration/punctuation-restoration/src/run_server_ro.sh
+WorkingDirectory=/data/vasile/PunctuationRestoration/punctuation-restoration/
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=control-group
+Restart=on-failure
+RestartPreventExitStatus=255
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
